@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0491665D2AA9A3FF00A0AE34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491665C2AA9A3FF00A0AE34 /* AppDelegate.swift */; };
 		0491665F2AA9A3FF00A0AE34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491665E2AA9A3FF00A0AE34 /* SceneDelegate.swift */; };
-		049166612AA9A3FF00A0AE34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049166602AA9A3FF00A0AE34 /* ViewController.swift */; };
 		049166642AA9A3FF00A0AE34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049166622AA9A3FF00A0AE34 /* Main.storyboard */; };
 		049166662AA9A40100A0AE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049166652AA9A40100A0AE34 /* Assets.xcassets */; };
 		049166692AA9A40100A0AE34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049166672AA9A40100A0AE34 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		049166592AA9A3FF00A0AE34 /* HWKurylenka_18_BGChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWKurylenka_18_BGChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0491665C2AA9A3FF00A0AE34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0491665E2AA9A3FF00A0AE34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		049166602AA9A3FF00A0AE34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		049166632AA9A3FF00A0AE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		049166652AA9A40100A0AE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049166682AA9A40100A0AE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +54,38 @@
 		0491665B2AA9A3FF00A0AE34 /* HWKurylenka_18_BGChange */ = {
 			isa = PBXGroup;
 			children = (
-				0491665C2AA9A3FF00A0AE34 /* AppDelegate.swift */,
-				0491665E2AA9A3FF00A0AE34 /* SceneDelegate.swift */,
-				049166602AA9A3FF00A0AE34 /* ViewController.swift */,
-				049166622AA9A3FF00A0AE34 /* Main.storyboard */,
-				049166652AA9A40100A0AE34 /* Assets.xcassets */,
-				049166672AA9A40100A0AE34 /* LaunchScreen.storyboard */,
+				049166712AA9A5A600A0AE34 /* Views */,
+				049166722AA9A5D800A0AE34 /* Resources */,
 				0491666A2AA9A40100A0AE34 /* Info.plist */,
+				049166702AA9A55F00A0AE34 /* Delegate */,
 			);
 			path = HWKurylenka_18_BGChange;
+			sourceTree = "<group>";
+		};
+		049166702AA9A55F00A0AE34 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0491665E2AA9A3FF00A0AE34 /* SceneDelegate.swift */,
+				0491665C2AA9A3FF00A0AE34 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		049166712AA9A5A600A0AE34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				049166622AA9A3FF00A0AE34 /* Main.storyboard */,
+				049166672AA9A40100A0AE34 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		049166722AA9A5D800A0AE34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				049166652AA9A40100A0AE34 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +159,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049166612AA9A3FF00A0AE34 /* ViewController.swift in Sources */,
 				0491665D2AA9A3FF00A0AE34 /* AppDelegate.swift in Sources */,
 				0491665F2AA9A3FF00A0AE34 /* SceneDelegate.swift in Sources */,
 			);
